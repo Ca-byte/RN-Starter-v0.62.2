@@ -26,6 +26,10 @@ const HomeScreen = ({navigation}) => {
       onPress={() => navigation.navigate('Square')} 
       title='Go to Square Demo'
       />
+      <Button 
+      onPress={() => navigation.navigate('Text')} 
+      title='Go to Text Demo'
+      />
 
 
     </View>
@@ -34,7 +38,13 @@ const HomeScreen = ({navigation}) => {
 
 const styles = StyleSheet.create({
   text: {
-    fontSize: 30
+    backgroundColor: "#9932cc",
+    width: 160,
+    fontSize: 30,
+    alignSelf: 'center',
+    paddingHorizontal: 25,
+   
+    marginVertical: 20,
 
   }
 });
